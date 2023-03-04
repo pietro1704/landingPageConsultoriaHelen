@@ -1,0 +1,697 @@
+Started GET "/" for 127.0.0.1 at 2023-03-04 19:55:05 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 984.3ms | Allocations: 83048)
+Completed 500 Internal Server Error in 1000ms (ActiveRecord: 0.0ms | Allocations: 85905)
+
+
+  
+ActionView::Template::Error (Multiple files with the same output path cannot be linked ("application.css")
+In "/Users/pietropugliesi/Developer/landingpageConsultoriaHelen/app/assets/config/manifest.js" these files were linked:
+  - /Users/pietropugliesi/Developer/landingpageConsultoriaHelen/app/assets/stylesheets/application.css
+  - /Users/pietropugliesi/Developer/landingpageConsultoriaHelen/app/assets/stylesheets/application.scss
+):
+  
+sprockets (4.2.0) lib/sprockets/base.rb:100:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for 127.0.0.1 at 2023-03-04 19:55:31 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 135.9ms | Allocations: 40648)
+Completed 200 OK in 144ms (Views: 139.0ms | ActiveRecord: 0.0ms | Allocations: 43561)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-04 19:55:54 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2371)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2632)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-04 19:55:57 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4240)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 4969)
+
+
+  
+ActionView::Template::Error (Missing partial home/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/pietropugliesi/Developer/landingpageConsultoriaHelen/app/views"
+  * "/Users/pietropugliesi/.asdf/installs/ruby/3.2.0/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actiontext-7.0.4.2/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actionmailbox-7.0.4.2/app/views"
+):
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render 'header' %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 19:57:23 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3381)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3618)
+
+
+  
+ActionView::Template::Error (Missing partial home/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/pietropugliesi/Developer/landingpageConsultoriaHelen/app/views"
+  * "/Users/pietropugliesi/.asdf/installs/ruby/3.2.0/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actiontext-7.0.4.2/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actionmailbox-7.0.4.2/app/views"
+):
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render 'header' %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 19:57:46 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3644)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4347)
+
+
+  
+ActionView::Template::Error (undefined method `partial' for #<ActionView::Base:0x0000000000bb08>):
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render partial 'header' %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 19:59:00 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3904)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4609)
+
+
+  
+ActionView::Template::Error (Missing partial home/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/pietropugliesi/Developer/landingpageConsultoriaHelen/app/views"
+  * "/Users/pietropugliesi/.asdf/installs/ruby/3.2.0/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actiontext-7.0.4.2/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actionmailbox-7.0.4.2/app/views"
+):
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render partial: 'header' %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:00:16 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3638)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4340)
+
+
+  
+ActionView::Template::Error (undefined method `partial' for #<ActionView::Base:0x0000000000c170>):
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render partial 'path' %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:00:30 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3638)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4340)
+
+
+  
+ActionView::Template::Error (undefined method `partial' for #<ActionView::Base:0x0000000000c4b8>):
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render partial 'shared/header' %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:00:41 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3270)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3504)
+
+
+  
+ActionView::Template::Error (undefined method `partial' for #<ActionView::Base:0x0000000000c788>):
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render partial 'shared/header' %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:00:43 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 91)
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 1293)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4143)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 4849)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+          <span class="sr-only"> Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <%= link_to "Helen Czarnieski - Consultora de Imagem", root_path, class: "navbar-brand" %>
+      </div>
+      <div id="main-menu" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Serviços", home_services_path %></li>
+          <li><%= link_to "Sobre Mim", services_path %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+):
+1:    <div class="container">
+2:      <nav class="navbar navbar-default" role="navigation">
+3:        <div class="container">
+4:          <div class="navbar-header">
+5:            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+6:              <span class="sr-only"> Toggle navigation</span>
+7:              <span class="icon-bar"></span>
+8:              <span class="icon-bar"></span>
+9:              <span class="icon-bar"></span>
+10:            </button>
+11:            <%= link_to "Helen Czarnieski - Consultora de Imagem", root_path, class: "navbar-brand" %>
+12:          </div>
+13:          <div id="main-menu" class="collapse navbar-collapse">
+14:            <ul class="nav navbar-nav">
+15:              <li><%= link_to "Serviços", home_services_path %></li>
+16:              <li><%= link_to "Sobre Mim", services_path %></li>
+17:            <% end %>
+18:          </ul>
+19:        </div>
+20:      </div>
+21:    </nav>
+22:    </div>
+  
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:00:50 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3900)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 4602)
+
+
+  
+ActionView::Template::Error (Missing partial home/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/pietropugliesi/Developer/landingpageConsultoriaHelen/app/views"
+  * "/Users/pietropugliesi/.asdf/installs/ruby/3.2.0/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actiontext-7.0.4.2/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actionmailbox-7.0.4.2/app/views"
+):
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render partial: 'header' %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:01:22 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3393)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3627)
+
+
+  
+ActionView::Template::Error (Missing partial home/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/pietropugliesi/Developer/landingpageConsultoriaHelen/app/views"
+  * "/Users/pietropugliesi/.asdf/installs/ruby/3.2.0/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actiontext-7.0.4.2/app/views"
+  * "/Users/pietropugliesi/.gem/ruby/3.2.0/gems/actionmailbox-7.0.4.2/app/views"
+):
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render partial: 'header' %>
+    13:     <%= yield %>
+    14:   </body>
+    15: </html>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:01:26 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 91)
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 1273)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4122)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 4824)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+          <span class="sr-only"> Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <%= link_to "Helen Czarnieski - Consultora de Imagem", root_path, class: "navbar-brand" %>
+      </div>
+      <div id="main-menu" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to "Serviços", home_services_path %></li>
+          <li><%= link_to "Sobre Mim", services_path %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+):
+1:    <div class="container">
+2:      <nav class="navbar navbar-default" role="navigation">
+3:        <div class="container">
+4:          <div class="navbar-header">
+5:            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+6:              <span class="sr-only"> Toggle navigation</span>
+7:              <span class="icon-bar"></span>
+8:              <span class="icon-bar"></span>
+9:              <span class="icon-bar"></span>
+10:            </button>
+11:            <%= link_to "Helen Czarnieski - Consultora de Imagem", root_path, class: "navbar-brand" %>
+12:          </div>
+13:          <div id="main-menu" class="collapse navbar-collapse">
+14:            <ul class="nav navbar-nav">
+15:              <li><%= link_to "Serviços", home_services_path %></li>
+16:              <li><%= link_to "Sobre Mim", services_path %></li>
+17:            <% end %>
+18:          </ul>
+19:        </div>
+20:      </div>
+21:    </nav>
+22:    </div>
+  
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/shared/_header.html.erb:25: syntax error, unexpected `end'
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:02:06 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 91)
+  Rendered shared/_header.html.erb (Duration: 1.6ms | Allocations: 1345)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4195)
+Completed 500 Internal Server Error in 13ms (Allocations: 4899)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_services_path' for #<ActionView::Base:0x0000000000d840>):
+    12:       </div>
+    13:       <div id="main-menu" class="collapse navbar-collapse">
+    14:         <ul class="nav navbar-nav">
+    15:           <li><%= link_to "Serviços", home_services_path %></li>
+    16:           <li><%= link_to "Sobre Mim", services_path %></li>
+    17:         </ul>
+    18:       </div>
+  
+app/views/shared/_header.html.erb:15
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:02:25 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 91)
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 1287)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4136)
+Completed 500 Internal Server Error in 9ms (Allocations: 4838)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `services_path' for #<ActionView::Base:0x0000000000dbb0>):
+    12:       </div>
+    13:       <div id="main-menu" class="collapse navbar-collapse">
+    14:         <ul class="nav navbar-nav">
+    15:           <li><%= link_to "Serviços", services_path %></li>
+    16:           <li><%= link_to "Sobre Mim", about_path %></li>
+    17:         </ul>
+    18:       </div>
+  
+app/views/shared/_header.html.erb:15
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:05:23 -0300
+  [1m[35m (7.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20230304230513_create_services.rb
+
+
+):
+  
+activerecord (7.0.4.2) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.4.2) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.4.2) lib/active_support/file_update_checker.rb:83:in `execute'
+activesupport (7.0.4.2) lib/active_support/file_update_checker.rb:93:in `execute_if_updated'
+activerecord (7.0.4.2) lib/active_record/migration.rb:599:in `block in call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4.2) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateServices (20230304230513)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "services" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar, "value" float, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230304230513"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-03-04 23:05:33.718272"], ["updated_at", "2023-03-04 23:05:33.718272"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:05:58 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 268)
+  Rendered shared/_header.html.erb (Duration: 2.6ms | Allocations: 1731)
+  Rendered layout layouts/application.html.erb (Duration: 63.2ms | Allocations: 38138)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms | Allocations: 40991)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for #<ActionView::Base:0x0000000000bbd0>):
+    13:       <div id="main-menu" class="collapse navbar-collapse">
+    14:         <ul class="nav navbar-nav">
+    15:           <li><%= link_to "Serviços", services_path %></li>
+    16:           <li><%= link_to "Sobre Mim", about_path %></li>
+    17:         </ul>
+    18:       </div>
+    19:     </div>
+  
+app/views/shared/_header.html.erb:16
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:08:42 -0300
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:08:59 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 1120)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 15064)
+Completed 500 Internal Server Error in 17ms (Allocations: 15545)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for #<ActionView::Base:0x0000000000d048>):
+    13:       <div id="main-menu" class="collapse navbar-collapse">
+    14:         <ul class="nav navbar-nav">
+    15:           <li><%= link_to "Serviços", services_path %></li>
+    16:           <li><%= link_to "Sobre Mim", about_path %></li>
+    17:         </ul>
+    18:       </div>
+    19:     </div>
+  
+app/views/shared/_header.html.erb:16
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:09:58 -0300
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:11:49 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 91)
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 1272)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 15553)
+Completed 500 Internal Server Error in 18ms (Allocations: 16294)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about' for #<ActionView::Base:0x0000000000e470>):
+    13:       <div id="main-menu" class="collapse navbar-collapse">
+    14:         <ul class="nav navbar-nav">
+    15:           <li><%= link_to "Serviços", services_path %></li>
+    16:           <li><%= link_to "Sobre Mim", about %></li>
+    17:         </ul>
+    18:       </div>
+    19:     </div>
+  
+app/views/shared/_header.html.erb:16
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:12:17 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 1171)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 15111)
+Completed 500 Internal Server Error in 14ms (Allocations: 15589)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about' for #<ActionView::Base:0x00000000012610>):
+    13:       <div id="main-menu" class="collapse navbar-collapse">
+    14:         <ul class="nav navbar-nav">
+    15:           <li><%= link_to "Serviços", services_path %></li>
+    16:           <li><%= link_to "Sobre Mim", about_path %></li>
+    17:         </ul>
+    18:       </div>
+    19:     </div>
+  
+app/views/shared/_header.html.erb:16
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:12:20 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 91)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3135)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 3906)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:12:22 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2535)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 2792)
+
+
+Started GET "/services" for 127.0.0.1 at 2023-03-04 20:12:35 -0300
+Processing by ServicesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1259)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3708)
+Completed 200 OK in 13ms (Views: 6.7ms | ActiveRecord: 0.3ms | Allocations: 5066)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-03-04 20:12:36 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 92)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2748)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3377)
+
+
+Started GET "/services" for 127.0.0.1 at 2023-03-04 20:12:37 -0300
+Processing by ServicesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering services/index.html.erb within layouts/application
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/services/index.html.erb:6
+  Rendered services/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 751)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3098)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms | Allocations: 3371)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:12:42 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2520)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2782)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:12:43 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2523)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2781)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:12:43 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2514)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2772)
+
+
