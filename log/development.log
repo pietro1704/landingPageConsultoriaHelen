@@ -695,3 +695,62 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2772)
 
 
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:17:20 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 27961)
+Completed 500 Internal Server Error in 62ms (Allocations: 28441)
+
+
+  
+ActionView::Template::Error (Asset `bootstrap.min.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link bootstrap.min.js
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+     9:     <%= javascript_importmap_tags %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render partial: 'shared/header' %>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:18:07 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 267)
+Importmap skipped missing path: popper.js
+Importmap skipped missing path: popper.js
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 363)
+  Rendered layout layouts/application.html.erb (Duration: 73.9ms | Allocations: 47416)
+Completed 200 OK in 82ms (Views: 76.6ms | ActiveRecord: 0.0ms | Allocations: 50325)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:21:56 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 267)
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 368)
+  Rendered layout layouts/application.html.erb (Duration: 2654.1ms | Allocations: 113655)
+Completed 200 OK in 2663ms (Views: 2657.6ms | ActiveRecord: 0.0ms | Allocations: 116562)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-04 20:22:10 -0300
+Processing by HomeController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 2547)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 2934)
+
+
