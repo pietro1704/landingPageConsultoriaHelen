@@ -57,3 +57,6 @@ build-iPhoneSimulator/
 *.DS_Store
 *.orig
 config/master.key
+
+/config/master.key
+.vscode
